@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { submitPeople } from './utils/apiRequest';
+import { submitPeople } from '../utils/apiRequest';
 
 const App = () => {
   const [value,setValue] = useState(0);
